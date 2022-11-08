@@ -1,0 +1,7 @@
+module mux2a1 #(parameter WIDTH = 4) (inpu);
+
+
+
+
+
+endmodule

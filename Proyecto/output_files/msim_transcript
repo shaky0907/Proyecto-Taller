@@ -1,0 +1,113 @@
+# Reading pref.tcl
+# do CPUARM_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto {C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:31:20 on Nov 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto" C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROM.v 
+# -- Compiling module ImageROM
+# 
+# Top level modules:
+# 	ImageROM
+# End time: 23:31:20 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto {C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:31:21 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto" C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMC.sv 
+# -- Compiling module ImageROMC
+# 
+# Top level modules:
+# 	ImageROMC
+# End time: 23:31:21 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto {C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageCounter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:31:21 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto" C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageCounter.sv 
+# -- Compiling module ImageCounter
+# 
+# Top level modules:
+# 	ImageCounter
+# End time: 23:31:21 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto {C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/CPU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:31:21 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto" C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/CPU.sv 
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# End time: 23:31:21 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto {C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/DataMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:31:21 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto" C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/DataMemory.sv 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 23:31:22 on Nov 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto {C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMTB.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:31:22 on Nov 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto" C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMTB.sv 
+# -- Compiling module ImageROMTB
+# 
+# Top level modules:
+# 	ImageROMTB
+# End time: 23:31:22 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  IMAGEROMTB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" IMAGEROMTB 
+# Start time: 23:31:22 on Nov 07,2022
+# ** Error: (vsim-3170) Could not find 'IMAGEROMTB'.
+#         Searched libraries:
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cyclonev
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cyclonev_hssi
+#             C:/intelFPGA/20.1/modelsim_ase/altera/verilog/cyclonev_pcie_hip
+#             C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/output_files/rtl_work
+#             C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/output_files/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./CPUARM_run_msim_rtl_verilog.do PAUSED at line 16
+vsim -L altera_mf_ver -L lpm_ver ImageROMTB
+# vsim -L altera_mf_ver -L lpm_ver ImageROMTB 
+# Start time: 23:31:22 on Nov 07,2022
+# Loading sv_std.std
+# Loading work.ImageROMTB
+# Loading work.ImageROMC
+# Loading work.ImageCounter
+# Loading work.ImageROM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/ImageROMTB/clk
+add wave -position end  sim:/ImageROMTB/rst
+add wave -position end  sim:/ImageROMTB/q
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 23:32:10 on Nov 07,2022, Elapsed time: 0:00:48
+# Errors: 1, Warnings: 0

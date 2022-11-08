@@ -1,0 +1,1 @@
+module InsMemory(input [31:0] pc, output [7:0]outdata)

@@ -1,0 +1,171 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/output_files
+vCPU
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1667885481
+!i10b 1
+!s100 maMiPVTSnG;O:VczWh3Ki1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<?Me_Xbzj4iQBmaoa2@ag0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1667880097
+8C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/CPU.sv
+FC:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/CPU.sv
+!i122 3
+L0 1 15
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1667885481.000000
+!s107 C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/CPU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto|C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/CPU.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto
+Z9 tCvgOpt 0
+n@c@p@u
+vDataMemory
+R1
+Z10 !s110 1667885482
+!i10b 1
+!s100 FFmc^80Ih8K6ifLd<SMbW2
+R3
+If3OMoEnED=6Gf2YgW;d3H2
+R4
+S1
+R0
+w1667883151
+8C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/DataMemory.sv
+FC:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/DataMemory.sv
+!i122 4
+L0 1 34
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/DataMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto|C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/DataMemory.sv|
+!i113 1
+R7
+R8
+R9
+n@data@memory
+vImageCounter
+R1
+R2
+!i10b 1
+!s100 3[jWOY<Ao?YKJk;=ab5I:1
+R3
+IA[G7i2IZbMlRGOZ=N]JCb2
+R4
+S1
+R0
+w1667876536
+8C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageCounter.sv
+FC:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageCounter.sv
+!i122 2
+L0 1 16
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageCounter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto|C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageCounter.sv|
+!i113 1
+R7
+R8
+R9
+n@image@counter
+vImageROM
+!s110 1667885480
+!i10b 1
+!s100 EMd:M[blWjBZNQ]^fS?[?3
+R3
+ITZlV3d:zVO1@UgMCQ70?A0
+R4
+R0
+w1667878775
+8C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROM.v
+FC:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROM.v
+!i122 0
+L0 40 61
+R5
+r1
+!s85 0
+31
+!s108 1667885480.000000
+!s107 C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto|C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROM.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto
+R9
+n@image@r@o@m
+vImageROMC
+R1
+R2
+!i10b 1
+!s100 Hb:01^OFbP_^CX2AfPVHn3
+R3
+IUR9>660hFAQVMh1ABhP>K3
+R4
+S1
+R0
+w1667878958
+8C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMC.sv
+FC:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMC.sv
+!i122 1
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto|C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMC.sv|
+!i113 1
+R7
+R8
+R9
+n@image@r@o@m@c
+vImageROMTB
+R1
+R10
+!i10b 1
+!s100 A7WJ5YM3:Q<1dV];cYh2^3
+R3
+IGm]PQEb:Fd2EdXFj9Tb9R2
+R4
+S1
+R0
+w1667877157
+8C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMTB.sv
+FC:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMTB.sv
+!i122 5
+L0 2 20
+R5
+r1
+!s85 0
+31
+!s108 1667885482.000000
+!s107 C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMTB.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto|C:/Users/david/OneDrive/Documents/TEC/Taller-D/Proyecto-Taller/Proyecto/ImageROMTB.sv|
+!i113 1
+R7
+R8
+R9
+n@image@r@o@m@t@b
